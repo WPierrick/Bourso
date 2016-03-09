@@ -25,7 +25,7 @@ safran.argenttotal()
 
 
 print ("Capital détenu")
-print (safran.argenttotal)
+print (safran.argenttotal())
 
 print ("Dividendes obtenus apres une annee")
-print (safran.dividendes)
+print (safran.dividendes())
