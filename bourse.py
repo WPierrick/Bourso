@@ -19,7 +19,7 @@ class action:
 		#print (toteur)
 		return toteur
 
-safran=action(10, 50, 0.013,)
+safran=action(10, 50, 0.013)
 safran.dividendes()
 safran.argenttotal()
 
