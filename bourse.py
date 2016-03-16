@@ -1,16 +1,18 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
+
+
 '''
 """Premier exemple avec Tkinter.
 
-On crée une fenêtre simple qui souhaite la bienvenue à l'utilisateur.
+On cree une fenêtre simple qui souhaite la bienvenue à l'utilisateur.
 
 """
 
 # On importe Tkinter
 from tkinter import *
 
-# On crée une fenêtre, racine de notre interface
+# On creee une fenetre, racine de notre interface
 fenetre = Tk()
 
 # On crée un label (ligne de texte) souhaitant la bienvenue
@@ -21,7 +23,7 @@ champ_label = Label(fenetre, text="Salut les Zér0s !")
 # On affiche le label dans la fenêtre
 champ_label.pack()
 
-# On démarre la boucle Tkinter qui s'interompt quand on ferme la fenêtre
+# On demarre la boucle Tkinter qui s'interompt quand on ferme la fenetre
 fenetre.mainloop()
 >>> champ_label["text"]
 'Salut les Zér0s !'
@@ -61,6 +63,21 @@ class action:
 		return toteur
 
 
+class Share_list:
+	def __init__(self):
+		self.share = self.create_list()
+
+	def create_list(self):
+
+		pass
+
+class Share_operation(object):
+	def __init__(self):
+		pass
+
+class Share_forecast(Share_operation):
+	def asd(self):
+		pass
 
 safran=action(input("Nombre d'actions"), input("cours"), input("dividendes"))
 safran.dividendes()
