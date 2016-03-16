@@ -1,10 +1,6 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 '''
 """Premier exemple avec Tkinter.
 
