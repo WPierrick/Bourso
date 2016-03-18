@@ -46,7 +46,7 @@ fenetre.mainloop()
 '''
 
 
-class action:
+class Share:
 	def __init__(self, nombreactions, cours, rendement):
 		self.cours = cours
 		self.nombreactions = nombreactions
@@ -58,19 +58,25 @@ class action:
 
 
 	def argenttotal(self):
+
 		toteur = self.nombreactions * self.cours
+
 		return toteur
 
 
 class Share_list:
 	def __init__(self):
-		self.share = self.create_list()
+		sharelist = self.create_list()
 
 	def create_list(self):
+		liste = []
+		liste = liste.append(Share_list.addaction())
 
-		pass
+	def addaction(self):
 
-class Share_operation(object):
+
+
+class Share_operation:
 	def __init__(self):
 		pass
 
@@ -78,7 +84,7 @@ class Share_forecast(Share_operation):
 	def asd(self):
 		pass
 
-safran=action(input("Nombre d'actions"), input("cours"), input("dividendes"))
+safran=Share(input("Nombre d'actions"), input("cours"), input("dividendes"))
 safran.dividendes()
 safran.argenttotal()
 
