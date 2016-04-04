@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 
+import webbrowser
+
 '''
 """Premier exemple avec Tkinter.
 
